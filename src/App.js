@@ -8,6 +8,7 @@ class App extends Component {
   };
 
   removeCharacter = index => {
+
     const { characters } = this.state;
 
     this.setState({
@@ -22,6 +23,7 @@ class App extends Component {
   }
 
   render() {
+    
     const { characters } = this.state;
 
     return (
